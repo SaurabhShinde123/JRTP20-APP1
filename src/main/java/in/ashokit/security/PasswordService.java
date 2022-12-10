@@ -32,9 +32,16 @@ public class PasswordService {
 		System.out.println(decode);
 	}
 
+
 	public void process() {
 		
 		//logic code
+}
+
+	public void m1() {
+		
+		//logic
+
 	}
 
 }
