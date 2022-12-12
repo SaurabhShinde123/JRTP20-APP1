@@ -30,7 +30,11 @@ public class PasswordService {
 		String decode = PasswordService.decode(encode);
 		System.out.println(decode);
 	}
+<<<<<<< Updated upstream
 	public void saurabh() {}
+=======
+		public void m2() {}
+>>>>>>> Stashed changes
 
 
 }
