@@ -5,19 +5,19 @@ import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
 
 public class PasswordService {
-	
+
 	public static String encode(String txt) {
-		//bug 101 is fixing
-		int a=10;
-		int b=20;
+		// bug 101 is fixing
+		int a = 10;
+		int b = 20;
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
 
 	}
 
 	public static String decode(String encodeTxt) {
-		//bug 121
-		String s="Saurabh";
+		// bug 121
+		String s = "Saurabh";
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);
 		return new String(decode);
@@ -31,6 +31,8 @@ public class PasswordService {
 		System.out.println(decode);
 	}
 
-
+	public String display() {
+	return "saurabh";
+	}
 
 }
