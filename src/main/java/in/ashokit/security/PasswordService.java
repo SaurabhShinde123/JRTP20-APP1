@@ -31,8 +31,5 @@ public class PasswordService {
 		System.out.println(decode);
 	}
 
-	public String display() {
-	return "saurabh";
-	}
 
 }
