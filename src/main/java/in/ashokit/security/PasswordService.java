@@ -35,12 +35,7 @@ public class PasswordService {
 		System.out.println("saurabh");
 		int a;
 		int b;
+		int c;
 	}
 	
-	
-
-
-		
-
-
 }
