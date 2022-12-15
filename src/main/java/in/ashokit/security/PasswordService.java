@@ -31,11 +31,4 @@ public class PasswordService {
 		System.out.println(decode);
 	}
 
-	public void saurabh() {
-		System.out.println("saurabh");
-		int a;
-		int b;
-		int c;
-	}
-	
 }
