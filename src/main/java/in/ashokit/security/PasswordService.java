@@ -4,6 +4,8 @@ import java.util.Base64;
 import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
 
+import in.ashokit.security.model.Book;
+
 public class PasswordService {
 
 	public static String encode(String txt) {
@@ -29,6 +31,7 @@ public class PasswordService {
 		System.out.println(encode);
 		String decode = PasswordService.decode(encode);
 		System.out.println(decode);
+	
 	}
 
 }
